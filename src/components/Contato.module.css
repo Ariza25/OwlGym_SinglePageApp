@@ -1,0 +1,75 @@
+.title{
+    width: 100%;
+    border-bottom: 1px solid #6666664a;
+    padding-bottom: 1rem;
+}
+
+.adress{
+    color: aliceblue;
+    height: 51vh;
+    padding-left: 40px;
+}
+
+.iconAdress{
+    margin-left: 11.5rem;
+    margin-top: 1rem;
+    color: #666666;
+}
+
+.iconTime{
+    margin-top: 1rem;
+    margin-left: 11.5rem;
+    color: #666666;
+}
+
+@media (max-width: 992px) {
+    .iconAdress{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconTime{
+        width: 100%;
+        margin-left: 0;
+    }
+    .adress{
+        height: 35vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .iconAdress{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconTime{
+        width: 100%;
+        margin-left: 0;
+    }
+    .adress{
+        height: 45vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .iconAdress{
+        width: 100%;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .iconTime{
+        width: 100%;
+        margin-left: 0;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .iconAdress{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconTime{
+        width: 100%;
+        margin-left: 0;
+    }
+}

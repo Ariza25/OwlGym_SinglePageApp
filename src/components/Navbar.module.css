@@ -1,0 +1,29 @@
+.background{
+    box-shadow: rgba(0, 0, 0, 0.58) 0px 4px 12px;
+    background: rgb(28,27,27);
+    background: linear-gradient(90deg, rgba(28,27,27,1) 0%, rgba(61, 61, 61, 0.74) 69%, rgba(102,102,102,1) 91%);
+}
+
+.logo{
+    margin-top: -3rem;
+}
+
+.paragraph{
+    margin-top: -2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.paragraph:hover{
+    color: rgba(240, 248, 255, 0.541);
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .paragraph{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}

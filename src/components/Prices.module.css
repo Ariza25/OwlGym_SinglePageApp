@@ -1,0 +1,34 @@
+.title{
+    width: 100%;
+    border-bottom: 1px solid #6666664a;
+    padding-bottom: 1rem;
+}
+
+.containerPrice{
+    width: 100%;
+    margin-left: 10%;
+}
+
+@media(max-width: 992px){
+    .containerPrice{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerPrice{
+        margin-left: 0%;
+    }
+}
+
+@media(max-width: 500px){
+    .containerPrice{
+        margin-left: 0%;
+    }
+}
+
+@media(max-width: 400px){
+    .containerPrice{
+        margin-left: 0%;
+    }
+}

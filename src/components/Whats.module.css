@@ -1,0 +1,14 @@
+.whats{
+    position: fixed;
+    text-decoration: none;
+    color: #25D366;
+    right: 60px;
+    bottom: 50px;
+    transition: all .5s ease;
+    z-index: 1;
+}
+
+.whats:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

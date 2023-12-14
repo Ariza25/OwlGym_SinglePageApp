@@ -1,0 +1,105 @@
+.iconContainer{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.icon{
+    transition: all .5 ease ;
+    margin-left: 1rem;
+    font-size: 50px;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.qR{
+    margin-left: -10rem;
+}
+
+@media (max-width: 1280px) {
+    .qrContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qR{
+        width: 95%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .qrContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qR{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .qrContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qR{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .qrContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .iconContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qR{
+        width: 100%;
+        margin-left: 0;
+    }
+    .icon{
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .iconContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qR{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .iconContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .qR{
+        width: 100%;
+        margin-left: 0;
+    }
+}
