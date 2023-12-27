@@ -1,7 +1,9 @@
-![Logo do Projeto](https://imgur.com/a/Qro3TMq.png)
+![Logo do Projeto](https://imgur.com/GvIKvW3.png)
 
 # Owl Gym
 Single Page App for Professional Gyms
+
+[Visit the website](https://academia.matheusariza.com)
 
 ## 🔥Introduction
 This project was developed to share the services of professional gyms. It allows users to navigate through the landing page and also submit information through the form, which will be saved in the database.
