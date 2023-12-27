@@ -7,14 +7,23 @@ import "react-toastify/dist/ReactToastify.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdAccessTime } from "react-icons/md";
 
+const apiKey = import.meta.env.VITE_API_KEY;
+const authDomain = import.meta.env.VITE_AUTH_DOMAIN;
+const databaseURL = import.meta.env.VITE_DATABASE_URL;
+const projectId = import.meta.env.VITE_PROJECT_ID;
+const storageBucket = import.meta.env.VITE_STORAGE_BUCKET;
+const messagingSenderId = import.meta.env.VITE_MESSAGING_SENDER_ID;
+const appId = import.meta.env.VITE_APP_ID;
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBkeAfN35xTcMPjiAd-6Es0gidJkAyU3Wg",
-  authDomain: "owlgym-f9e72.firebaseapp.com",
-  databaseURL: "https://owlgym-f9e72-default-rtdb.firebaseio.com",
-  projectId: "owlgym-f9e72",
-  storageBucket: "owlgym-f9e72.appspot.com",
-  messagingSenderId: "798544780691",
-  appId: "1:798544780691:web:724fd153bc1e5eb76a1c66",
+  apiKey,
+  authDomain,
+  databaseURL,
+  projectId,
+  storageBucket,
+  messagingSenderId,
+  appId
 };
 
 const app = initializeApp(firebaseConfig);

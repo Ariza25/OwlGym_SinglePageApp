@@ -1,9 +1,11 @@
 {
-    "globals": {
-      "process": true
-    },
-    "rules": {
-
-    }
+  "globals": {
+    "process": "readonly"
+  },
+  "rules": {
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
-  
+}
